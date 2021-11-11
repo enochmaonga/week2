@@ -13,7 +13,7 @@ var value2 = parseInt(value2Input);
 alert(value2Input + ' was a ' + typeof  value2Input + ' and was converted and saved as a new variable, the new data type of value2 is '+ typeof  value2)
 
 //addition, subtraction, divisin and multiplication
-var operationsValue = prompt("which operation do you want to perform?(addition || +, subtraction, division, multiplication)");
+var operationsValue = prompt("which operation do you want to perform?(addition, subtraction, division, multiplication)");
 if (operationsValue === 'add') {
     alert(inPutValue  + ' the sum of '+ value1 + ' and ' +value2 + ' is '+ addTwoNumbers(value1,value2));
 }
